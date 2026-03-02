@@ -4,22 +4,25 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZrYx61S7-NSt_IJTJRBR-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="520" width="520" x="30" y="20" as="geometry" />
+        </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-7" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=job" value="" vertex="1">
           <mxGeometry height="50" width="52.08" x="40" y="235" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-25" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#97D077;" target="laxrCMbZicgC9Z-xOtbV-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-19" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E6E6E6;" value="&lt;b&gt;SOI Batch Manager&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Incoming / Request&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Outgoing / Response&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="laxrCMbZicgC9Z-xOtbV-19" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E6E6E6;" value="&lt;b&gt;SOI Batch Manager&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp;- Incoming RQ&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Outgoing RS&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="160" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=#CCFFFF;strokeColor=#0000FF;" value="&lt;b&gt;MS Batch Manager&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Incoming / Request&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Outgoing / Response&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="laxrCMbZicgC9Z-xOtbV-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=#CCFFFF;strokeColor=#0000FF;" value="&lt;b&gt;MS Batch Manager&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp;- Incoming RQ&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Outgoing RS&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="360" y="80" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-27" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#97D077;" target="laxrCMbZicgC9Z-xOtbV-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-22" parent="1" style="whiteSpace=wrap;html=1;fillColor=#CCFFFF;strokeColor=#0000FF;" value="&lt;b&gt;MS Comparator Engine&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;SOI RQ File &amp;lt;=&amp;gt; MS RQ File&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;SOI RS File &amp;lt;=&amp;gt; MS RS File&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="laxrCMbZicgC9Z-xOtbV-22" parent="1" style="whiteSpace=wrap;html=1;fillColor=#CCFFFF;strokeColor=#0000FF;" value="&lt;b&gt;MS Comparator Engine&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- Request File Comparison &amp;nbsp;(SOI vs MS)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;-&lt;font style=&quot;font-size: 10px;&quot;&gt; Response File Comparison (SOI vs MS)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="240" x="200" y="200" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-23" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" value="Report DB" vertex="1">
@@ -50,10 +53,10 @@
         <mxCell id="laxrCMbZicgC9Z-xOtbV-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="4" vertex="1">
           <mxGeometry height="25" width="17.92" x="320" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Read batch file from SOI Batch Manager&lt;/font&gt;" vertex="1">
+        <mxCell id="laxrCMbZicgC9Z-xOtbV-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Read batch file from SOI Batch Server&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="90" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Read batch file from MS Batch Manager&lt;/font&gt;" vertex="1">
+        <mxCell id="laxrCMbZicgC9Z-xOtbV-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Read batch file from MS Batch Server&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="428.96" y="140" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Update comparator report in MS DB&lt;/font&gt;" vertex="1">
