@@ -1,69 +1,99 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.5.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15" version="29.6.1">
   <diagram name="Page-1" id="_B86vbdSwNNNSPz2iekl">
     <mxGraphModel dx="1018" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZrYx61S7-NSt_IJTJRBR-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="510" width="510" x="30" y="20" as="geometry" />
+          <mxGeometry height="690" width="690" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-1" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#97D077;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="380" />
+              <mxPoint x="170" y="380" />
+            </Array>
+            <mxPoint x="262.0799999999999" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-7" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=job" value="" vertex="1">
-          <mxGeometry height="50" width="52.08" x="40" y="235" as="geometry" />
+          <mxGeometry height="50" width="52.08" x="50" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-25" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#97D077;" target="laxrCMbZicgC9Z-xOtbV-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-19" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E6E6E6;" value="&lt;b&gt;SOI Batch Manager&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp;- Incoming RQ&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Outgoing RS&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="160" y="80" as="geometry" />
+        <mxCell id="laxrCMbZicgC9Z-xOtbV-19" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E6E6E6;" value="&lt;b&gt;SOI Batch Server&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp;- Incoming RQ&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Outgoing RS&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="120" y="80" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=#CCFFFF;strokeColor=#0000FF;" value="&lt;b&gt;MS Batch Manager&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp;- Incoming RQ&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Outgoing RS&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="360" y="80" as="geometry" />
+          <mxGeometry height="75" width="170" x="120" y="165" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-27" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#97D077;" target="laxrCMbZicgC9Z-xOtbV-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-22" parent="1" style="whiteSpace=wrap;html=1;fillColor=#CCFFFF;strokeColor=#0000FF;" value="&lt;b&gt;MS Comparator Engine&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- Request File Comparison &amp;nbsp;(SOI vs MS)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;-&lt;font style=&quot;font-size: 10px;&quot;&gt; Response File Comparison (SOI vs MS)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="240" x="200" y="200" as="geometry" />
+          <mxGeometry height="120" width="287.92" x="262.08" y="320" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-23" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" value="Report DB" vertex="1">
-          <mxGeometry height="120" width="80" x="280" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-24" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#97D077;" target="laxrCMbZicgC9Z-xOtbV-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-26" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.417;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#97D077;" target="laxrCMbZicgC9Z-xOtbV-22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="410" y="170" />
-              <mxPoint x="320" y="170" />
-            </Array>
-            <mxPoint x="400" y="150" as="sourcePoint" />
-            <mxPoint x="450" y="235" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry height="120" width="80" x="366.03999999999996" y="520" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="1" vertex="1">
-          <mxGeometry height="25" width="17.92" x="92.08" y="242.5" as="geometry" />
+          <mxGeometry height="25" width="17.92" x="102.08" y="352.5" as="geometry" />
         </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="2" vertex="1">
-          <mxGeometry height="25" width="17.92" x="200" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="3" vertex="1">
-          <mxGeometry height="25" width="17.92" x="411.04" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="4" vertex="1">
-          <mxGeometry height="25" width="17.92" x="320" y="310" as="geometry" />
-        </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Read batch file from SOI Batch Server&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="90" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="laxrCMbZicgC9Z-xOtbV-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Read batch file from MS Batch Server&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="428.96" y="140" as="geometry" />
+        <mxCell id="laxrCMbZicgC9Z-xOtbV-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;SOI Batch Server &amp;nbsp;transfer the batch file to SFS&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="127" x="303" y="90" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Update comparator report in MS DB&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="337.92" y="320" as="geometry" />
+          <mxGeometry height="30" width="110" x="430" y="452.5" as="geometry" />
         </mxCell>
         <mxCell id="laxrCMbZicgC9Z-xOtbV-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font size=&quot;1&quot;&gt;Trigger the job&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="92.08" y="237.5" as="geometry" />
+          <mxGeometry height="30" width="110" x="102.08" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-15" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="250" x="450" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-6" parent="DhMJM3F2DdFWmKlxY9CN-15" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E6E6E6;" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-8" parent="DhMJM3F2DdFWmKlxY9CN-15" style="rounded=1;whiteSpace=wrap;html=1;" value="SOI&amp;nbsp;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Incoming/ Request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Outgoing / Response&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-9" parent="DhMJM3F2DdFWmKlxY9CN-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" value="MS&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Incoming/ Request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Outgoing / Response&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="31" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-10" parent="DhMJM3F2DdFWmKlxY9CN-15" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;SFS(IPS)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="175" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;MS Batch Server &amp;nbsp;transfer the batch file to SFS&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="137" x="303" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-14" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#97D077;" target="DhMJM3F2DdFWmKlxY9CN-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="203" />
+              <mxPoint x="370" y="203" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-13" edge="1" parent="1" source="laxrCMbZicgC9Z-xOtbV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DhMJM3F2DdFWmKlxY9CN-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="120" />
+              <mxPoint x="310" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-18" edge="1" parent="1" source="DhMJM3F2DdFWmKlxY9CN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#97D077;exitX=0.688;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" target="laxrCMbZicgC9Z-xOtbV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-19" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="160" x="540" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="laxrCMbZicgC9Z-xOtbV-35" parent="DhMJM3F2DdFWmKlxY9CN-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Read batch file from SFS for both SOI and MS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34.285714285714285" width="137.5859912445279" x="22.41400875547213" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-22" parent="DhMJM3F2DdFWmKlxY9CN-19" style="ellipse;whiteSpace=wrap;html=1;" value="2" vertex="1">
+          <mxGeometry height="28.57" width="22.41" x="7.590000000000032" y="2.8600000000000136" as="geometry" />
+        </mxCell>
+        <mxCell id="DhMJM3F2DdFWmKlxY9CN-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="3" vertex="1">
+          <mxGeometry height="28.57" width="22.41" x="407.59000000000003" y="453.93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
