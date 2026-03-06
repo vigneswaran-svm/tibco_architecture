@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15" version="29.6.1">
   <diagram name="Page-1" id="4RraKmqRbuDw8wgvjFle">
-    <mxGraphModel dx="1018" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
           <mxGeometry height="20" width="120" x="240" y="60" as="geometry" />
         </mxCell>
         <mxCell id="GjM-yrjemNviKNAQ8jFn-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;color: light-dark(rgb(90, 28, 0), rgb(237, 237, 237));&quot;&gt;TIBCO _ Migration DB Comparator&amp;nbsp;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="20" width="220" x="320" y="15" as="geometry" />
+          <mxGeometry height="20" width="220" x="340" y="33.11" as="geometry" />
         </mxCell>
         <mxCell id="GjM-yrjemNviKNAQ8jFn-23" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="320" width="200" x="580" y="40" as="geometry" />
