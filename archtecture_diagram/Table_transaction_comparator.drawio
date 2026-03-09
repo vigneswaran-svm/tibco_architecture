@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15" version="29.6.1">
+  <diagram name="Page-1" id="JYfvs6Wnzq9LvjRP5v7Y">
+    <mxGraphModel dx="1868" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HUop47xk69O9bvxkIz4B-5" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HUop47xk69O9bvxkIz4B-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-10" connectable="0" parent="HUop47xk69O9bvxkIz4B-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="input file from&amp;nbsp;&lt;div&gt;source&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2222" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Source System" vertex="1">
+          <mxGeometry height="50" width="110" x="30" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-6" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HUop47xk69O9bvxkIz4B-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-11" connectable="0" parent="HUop47xk69O9bvxkIz4B-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="batch to DB&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.5613" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="incoming" vertex="1">
+          <mxGeometry height="50" width="110" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="output" vertex="1">
+          <mxGeometry height="50" width="110" x="290" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-8" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="HUop47xk69O9bvxkIz4B-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="340" />
+              <mxPoint x="470" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-13" connectable="0" parent="HUop47xk69O9bvxkIz4B-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp;Result of&amp;nbsp;&lt;div&gt;batch output&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5795" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DB" vertex="1">
+          <mxGeometry height="80" width="60" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="The batch update in static table no changes in SOI DB &amp;amp; MS DB" vertex="1">
+          <mxGeometry height="40" width="270" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Static table" vertex="1">
+          <mxGeometry height="40" width="90" x="570" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Table Linkage &amp;nbsp;Validator" vertex="1">
+          <mxGeometry height="20" width="300" x="40" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOI" vertex="1">
+          <mxGeometry height="50" width="110" x="490" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MS" vertex="1">
+          <mxGeometry height="50" width="110" x="495" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MS Config" vertex="1">
+          <mxGeometry height="50" width="110" x="200" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Table Comparator Engine" vertex="1">
+          <mxGeometry height="80" width="240" x="160" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HUop47xk69O9bvxkIz4B-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="820" as="sourcePoint" />
+            <mxPoint x="235" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-43" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.404;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="HUop47xk69O9bvxkIz4B-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="89" y="815" />
+            </Array>
+            <mxPoint x="90" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ServiceId - Table Name" vertex="1">
+          <mxGeometry height="30" width="270" x="170" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-28" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="HUop47xk69O9bvxkIz4B-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOI Table&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="270" x="400" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-30" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="HUop47xk69O9bvxkIz4B-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOI Sub Table 1 Ref MsgId =123" vertex="1">
+          <mxGeometry height="30" width="270" x="580" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-50" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="1020" />
+            </Array>
+            <mxPoint x="470" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOI Sub Table 2 Ref msgId = 123" vertex="1">
+          <mxGeometry height="30" width="270" x="580" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOI Sub Table &amp;nbsp;3 Ref magic= 123" vertex="1">
+          <mxGeometry height="30" width="270" x="580" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MSGId = 123" vertex="1">
+          <mxGeometry height="30" width="109" x="440" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-34" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HUop47xk69O9bvxkIz4B-33" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="995" />
+              <mxPoint x="450" y="995" />
+            </Array>
+            <mxPoint x="580" y="1020" as="sourcePoint" />
+            <mxPoint x="220" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="magid =123 {}&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="180" x="415" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-45" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOI Sub Table 1 Ref MsgId =123" vertex="1">
+          <mxGeometry height="30" width="270" x="-100" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-46" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOI Sub Table 2 Ref msgId = 123" vertex="1">
+          <mxGeometry height="30" width="270" x="-100" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-48" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SOI Sub Table &amp;nbsp;3 Ref magic= 123" vertex="1">
+          <mxGeometry height="30" width="270" x="-100" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-57" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="HUop47xk69O9bvxkIz4B-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MS Table&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="270" x="-20" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-59" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="HUop47xk69O9bvxkIz4B-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="magid =123 {}&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="180" x="150" y="1085" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Table Comparator" vertex="1">
+          <mxGeometry height="50" width="180" x="300" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MSGId = 123" vertex="1">
+          <mxGeometry height="30" width="109" x="110" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="HUop47xk69O9bvxkIz4B-60" edge="1" parent="1" source="HUop47xk69O9bvxkIz4B-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="HUop47xk69O9bvxkIz4B-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
