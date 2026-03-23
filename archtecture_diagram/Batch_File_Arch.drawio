@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15" version="29.6.1">
-  <diagram name="Page-1" id="_B86vbdSwNNNSPz2iekl">
-    <mxGraphModel dx="1018" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15" version="29.6.4" pages="2">
+  <diagram name="batch-file-comparator" id="_B86vbdSwNNNSPz2iekl">
+    <mxGraphModel dx="1072" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,6 +94,168 @@
         </mxCell>
         <mxCell id="DhMJM3F2DdFWmKlxY9CN-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="3" vertex="1">
           <mxGeometry height="28.57" width="22.41" x="407.59000000000003" y="453.93" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zzkdjUwUA8cZw0MRWfug" name="table-snapshot-comparison">
+    <mxGraphModel dx="1018" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GRpRADfVOKQDxJASLKgH-11" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry height="220" width="220" x="370" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-3" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GRpRADfVOKQDxJASLKgH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="153" />
+              <mxPoint x="290" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fillColor=#E6E6E6;" value="Tibco" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#E6E6E6;" value="TIBCO SOI DB&amp;nbsp;" vertex="1">
+          <mxGeometry height="75" width="80" x="440" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="BAU Flow" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="R1 Migration Flow" vertex="1">
+          <mxGeometry height="30" width="140" x="50" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-14" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="GRpRADfVOKQDxJASLKgH-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-18" connectable="0" parent="GRpRADfVOKQDxJASLKgH-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Day1&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.08" y="6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;R1 - MSDB Schema1)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="80" x="440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(255, 38, 0), rgb(237, 237, 237));&quot;&gt;Oracle DB&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(255, 38, 0), rgb(237, 237, 237));&quot;&gt;Oracle DB&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-17" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GRpRADfVOKQDxJASLKgH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-19" connectable="0" parent="GRpRADfVOKQDxJASLKgH-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Day1&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.25" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#99FFFF;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;BAUDB snapshot&lt;div&gt;(Schema 2)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="80" x="440" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-12" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.823;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#97D077;" target="GRpRADfVOKQDxJASLKgH-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="551" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 140, 180), rgb(237, 237, 237));&quot;&gt;Snapshot daily basics&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="550" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;Day 1 snapshot online + batch&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;No data insert or update&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="620" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;Day 1 snapshot online + batch&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;No data insert or update&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="610" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-25" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="515" as="sourcePoint" />
+            <mxPoint x="620" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-26" connectable="0" parent="GRpRADfVOKQDxJASLKgH-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Day2&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.25" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;Day2 snapshot &amp;nbsp;online + batch&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;No data insert or update&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="620" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-28" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.013;exitY=0.743;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="370" as="sourcePoint" />
+            <mxPoint x="620" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-29" connectable="0" parent="GRpRADfVOKQDxJASLKgH-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Day2&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.08" y="6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(51, 153, 255), rgb(237, 237, 237));&quot;&gt;Day1snapshot data + day2 transaction data insert from logs&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="620" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-32" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#97D077;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-39" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#97D077;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="411" />
+              <mxPoint x="284" y="411" />
+              <mxPoint x="284" y="490" />
+            </Array>
+            <mxPoint x="195.98000000000002" y="410.98" as="sourcePoint" />
+            <mxPoint x="444.02000000000004" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" value="Comparator Engine" vertex="1">
+          <mxGeometry height="90" width="140" x="70" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-33" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#99FFFF;" value="Comparator DB" vertex="1">
+          <mxGeometry height="75" width="80" x="110" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MariaDB" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fetch Config from table" vertex="1">
+          <mxGeometry height="30" width="90" x="60" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-37" edge="1" parent="1" source="GRpRADfVOKQDxJASLKgH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#97D077;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="385" />
+              <mxPoint x="360" y="385" />
+              <mxPoint x="360" y="350" />
+            </Array>
+            <mxPoint x="200" y="385" as="sourcePoint" />
+            <mxPoint x="440" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="R1 tables" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="BAU tables" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-43" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#97D077;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="450" as="sourcePoint" />
+            <mxPoint x="160" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Update result in history table" vertex="1">
+          <mxGeometry height="30" width="80" x="160" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="GRpRADfVOKQDxJASLKgH-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="BAU Database" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
