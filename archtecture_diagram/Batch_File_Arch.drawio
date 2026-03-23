@@ -115,7 +115,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GRpRADfVOKQDxJASLKgH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fillColor=#E6E6E6;" value="Tibco" vertex="1">
-          <mxGeometry height="60" width="120" x="120" y="120" as="geometry" />
+          <mxGeometry height="57.5" width="140" x="70" y="122.5" as="geometry" />
         </mxCell>
         <mxCell id="GRpRADfVOKQDxJASLKgH-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#E6E6E6;" value="TIBCO SOI DB&amp;nbsp;" vertex="1">
           <mxGeometry height="75" width="80" x="440" y="115" as="geometry" />
