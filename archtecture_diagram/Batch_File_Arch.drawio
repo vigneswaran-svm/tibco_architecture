@@ -962,9 +962,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tzT08Vmd4-lBRWCOCffq-126" parent="tzT08Vmd4-lBRWCOCffq-22" style="rounded=0;whiteSpace=wrap;html=1;" value="WMQ Msg&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="105" x="192.5" y="200" as="geometry" />
-        </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-128" parent="tzT08Vmd4-lBRWCOCffq-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(92, 7, 0), rgb(237, 237, 237));&quot;&gt;IPID / IPHK&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="250" as="geometry" />
         </mxCell>
