@@ -648,20 +648,6 @@
         <mxCell id="tzT08Vmd4-lBRWCOCffq-1" parent="tzT08Vmd4-lBRWCOCffq-22" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=job" value="" vertex="1">
           <mxGeometry height="50" width="52.08" x="10" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="tzT08Vmd4-lBRWCOCffq-16" edge="1" parent="tzT08Vmd4-lBRWCOCffq-22" source="tzT08Vmd4-lBRWCOCffq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="360" y="115" />
-              <mxPoint x="360" y="60" />
-            </Array>
-            <mxPoint x="420" y="60" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tzT08Vmd4-lBRWCOCffq-17" connectable="0" parent="tzT08Vmd4-lBRWCOCffq-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Copy File" vertex="1">
-          <mxGeometry relative="1" x="-0.1059" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-2" parent="tzT08Vmd4-lBRWCOCffq-22" style="rounded=0;whiteSpace=wrap;html=1;" value="Tibco Batch" vertex="1">
           <mxGeometry height="60" width="120" x="185" y="85" as="geometry" />
         </mxCell>
@@ -670,6 +656,16 @@
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-4" parent="tzT08Vmd4-lBRWCOCffq-22" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.eci_elastic_container_instance;" value="" vertex="1">
           <mxGeometry height="38.4" width="54.900000000000006" x="460" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tzT08Vmd4-lBRWCOCffq-121" edge="1" parent="tzT08Vmd4-lBRWCOCffq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="tzT08Vmd4-lBRWCOCffq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tzT08Vmd4-lBRWCOCffq-122" connectable="0" parent="tzT08Vmd4-lBRWCOCffq-121" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Source copy&amp;nbsp;&lt;div&gt;from SFS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0645" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-7" parent="tzT08Vmd4-lBRWCOCffq-22" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.sip_proxy_server;" value="" vertex="1">
           <mxGeometry height="40" width="30" x="460" y="40" as="geometry" />
@@ -929,7 +925,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-101" parent="tzT08Vmd4-lBRWCOCffq-77" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="OCP" vertex="1">
-          <mxGeometry height="33.214285714285715" width="60" x="110" y="66.42857142857143" as="geometry" />
+          <mxGeometry height="33.214285714285715" width="60" x="120" y="60.88857142857143" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-115" connectable="0" parent="tzT08Vmd4-lBRWCOCffq-77" style="group" value="" vertex="1">
           <mxGeometry height="88.57142857142858" width="139.83471074380168" x="489.42148760330576" y="33.214285714285715" as="geometry" />
