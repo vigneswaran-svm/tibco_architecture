@@ -651,7 +651,7 @@
         <mxCell id="tzT08Vmd4-lBRWCOCffq-2" parent="tzT08Vmd4-lBRWCOCffq-22" style="rounded=0;whiteSpace=wrap;html=1;" value="Tibco Batch" vertex="1">
           <mxGeometry height="60" width="120" x="185" y="85" as="geometry" />
         </mxCell>
-        <mxCell id="tzT08Vmd4-lBRWCOCffq-3" parent="tzT08Vmd4-lBRWCOCffq-22" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Tibco Batch" vertex="1">
+        <mxCell id="tzT08Vmd4-lBRWCOCffq-3" parent="tzT08Vmd4-lBRWCOCffq-22" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Tibco Batch Server" vertex="1">
           <mxGeometry height="70" width="140" x="420" y="160" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-4" parent="tzT08Vmd4-lBRWCOCffq-22" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.eci_elastic_container_instance;" value="" vertex="1">
