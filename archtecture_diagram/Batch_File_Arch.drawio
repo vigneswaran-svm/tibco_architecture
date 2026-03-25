@@ -651,7 +651,7 @@
         <mxCell id="tzT08Vmd4-lBRWCOCffq-33" parent="tzT08Vmd4-lBRWCOCffq-23" style="rounded=0;whiteSpace=wrap;html=1;" value="BMS" vertex="1">
           <mxGeometry height="71.96428571428572" width="100" x="110" y="91.33928571428572" as="geometry" />
         </mxCell>
-        <mxCell id="tzT08Vmd4-lBRWCOCffq-34" parent="tzT08Vmd4-lBRWCOCffq-23" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;SFS&lt;div&gt;MS - Batch file folder&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="tzT08Vmd4-lBRWCOCffq-34" parent="tzT08Vmd4-lBRWCOCffq-23" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;MDID / MDHK SFS&amp;nbsp;&lt;div&gt;MS - Batch file folder&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="92.86" width="163.14" x="489.42" y="177.14" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-116" edge="1" parent="tzT08Vmd4-lBRWCOCffq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="tzT08Vmd4-lBRWCOCffq-62">
@@ -675,7 +675,7 @@
           <mxGeometry height="44.28571428571429" width="34.95867768595041" x="536.0330578512396" y="44.28571428571429" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-40" parent="tzT08Vmd4-lBRWCOCffq-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SFS" vertex="1">
-          <mxGeometry height="22.142857142857146" width="58.264462809917354" x="524.3801652892562" y="88.57142857142858" as="geometry" />
+          <mxGeometry height="22.14" width="65.62" x="524.38" y="88.57" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-27" edge="1" parent="tzT08Vmd4-lBRWCOCffq-23" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -911,10 +911,10 @@
           <mxGeometry height="50" width="52.08" x="10" y="90" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-2" parent="tzT08Vmd4-lBRWCOCffq-22" style="rounded=0;whiteSpace=wrap;html=1;" value="Tibco Batch" vertex="1">
-          <mxGeometry height="60" width="120" x="185" y="85" as="geometry" />
+          <mxGeometry height="60" width="120" x="130" y="85" as="geometry" />
         </mxCell>
-        <mxCell id="tzT08Vmd4-lBRWCOCffq-3" parent="tzT08Vmd4-lBRWCOCffq-22" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Tibco Batch Server" vertex="1">
-          <mxGeometry height="70" width="140" x="420" y="160" as="geometry" />
+        <mxCell id="tzT08Vmd4-lBRWCOCffq-3" parent="tzT08Vmd4-lBRWCOCffq-22" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Tibco Batch Server ( VM)" vertex="1">
+          <mxGeometry height="70" width="130" x="420" y="160" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-4" parent="tzT08Vmd4-lBRWCOCffq-22" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.eci_elastic_container_instance;" value="" vertex="1">
           <mxGeometry height="30" width="42.89" x="460" y="170" as="geometry" />
@@ -952,8 +952,8 @@
         <mxCell id="tzT08Vmd4-lBRWCOCffq-18" edge="1" parent="tzT08Vmd4-lBRWCOCffq-22" source="tzT08Vmd4-lBRWCOCffq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;" target="tzT08Vmd4-lBRWCOCffq-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="350" y="115" />
-              <mxPoint x="350" y="205" />
+              <mxPoint x="340" y="115" />
+              <mxPoint x="340" y="205" />
             </Array>
           </mxGeometry>
         </mxCell>
