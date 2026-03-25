@@ -645,11 +645,6 @@
         <mxCell id="tzT08Vmd4-lBRWCOCffq-15" edge="1" parent="tzT08Vmd4-lBRWCOCffq-22" source="tzT08Vmd4-lBRWCOCffq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tzT08Vmd4-lBRWCOCffq-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tzT08Vmd4-lBRWCOCffq-20" connectable="0" parent="tzT08Vmd4-lBRWCOCffq-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Request to source /&amp;nbsp;&lt;div&gt;destination path&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.3993" y="-5" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-1" parent="tzT08Vmd4-lBRWCOCffq-22" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=job" value="" vertex="1">
           <mxGeometry height="50" width="52.08" x="10" y="90" as="geometry" />
         </mxCell>
@@ -712,6 +707,9 @@
           <mxGeometry relative="1" x="0.0441" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tzT08Vmd4-lBRWCOCffq-120" parent="tzT08Vmd4-lBRWCOCffq-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Request to source /&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;destination path,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;file name and connection details&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="140" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-23" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="310" width="705" x="120" y="450" as="geometry" />
@@ -816,8 +814,8 @@
         <mxCell id="tzT08Vmd4-lBRWCOCffq-69" parent="tzT08Vmd4-lBRWCOCffq-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="APP Config" vertex="1">
           <mxGeometry height="22.142857142857146" width="100" x="260" y="269.9971428571429" as="geometry" />
         </mxCell>
-        <mxCell id="tzT08Vmd4-lBRWCOCffq-70" parent="tzT08Vmd4-lBRWCOCffq-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Source path&amp;nbsp;&lt;div&gt;Destination Path configuration&lt;/div&gt;" vertex="1">
-          <mxGeometry height="49.82" width="90" x="180" y="216.52000000000004" as="geometry" />
+        <mxCell id="tzT08Vmd4-lBRWCOCffq-70" parent="tzT08Vmd4-lBRWCOCffq-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Source path&amp;nbsp;&lt;div&gt;Destination Path,&amp;nbsp;&lt;/div&gt;&lt;div&gt;SFS connection configuration&lt;/div&gt;" vertex="1">
+          <mxGeometry height="53.48" width="130" x="140" y="216.52" as="geometry" />
         </mxCell>
         <mxCell id="tzT08Vmd4-lBRWCOCffq-63" parent="tzT08Vmd4-lBRWCOCffq-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="OCP" vertex="1">
           <mxGeometry height="30" width="60" x="245" y="69.99999999999994" as="geometry" />
